@@ -1,0 +1,218 @@
+		body{
+			margin:0px;
+			padding:0px;
+			background-color: white;
+		}
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		html,body
+		{
+			height: 100%;
+		}
+		.all
+		{
+			min-height: 100%;
+			overflow: auto;
+			padding-bottom: 100px;
+		}
+
+		.footer
+		{
+			background-color: black;  /* source url---https://www.youtube.com/watch?v=qlCIXXhSX6Y*/
+			position:relative;
+			height: 220px;
+			margin-top: -100x;
+			clear: both;
+		}
+
+
+		.heading
+		{
+
+			line-height: 50px;
+			height: 50px;
+			background-color: #770719;
+			text-align: center;
+			width: 100%;
+			color: white;
+		}
+	
+
+		.menu ul li{
+			margin-right: 2px;
+			width: 100%; /*width of each menu item according to flex */
+			background-color: #5f2482	; 
+			font-family: 'Times New Roman';
+			font-size: 20px;
+			list-style: none;
+			text-align: center;
+			line-height: 50px; /*gives the height of menu*/
+
+		}
+
+
+
+		.menu ul
+		{
+			margin: 0%;
+			padding: 0%;
+			list-style: none; /*to remove black dot*/
+			display: flex;
+			justify-content: space-between;/* creates equal space between menus item*/
+		}
+
+		.menu ul li a
+		{
+			text-decoration: none;
+			color: white;
+
+		}
+		.menu ul li a:hover
+		{
+			background-color: #cfa7f9;
+			color: red;	
+			text-decoration: underline;
+			display: block;
+		}
+
+		.logo
+		{
+			display: inline-block;
+			width: 12%;
+			margin:0%;
+			padding: 0%;	
+		}
+		
+		.menu
+		{
+				width:76%;
+
+		}
+
+		.menubar
+		{
+			display: flex;
+		}
+
+
+		.search 						/*Design of search box*/
+		{
+			width: 12%;
+			height: 50px;
+			display: inline-block;
+			background-color: #5f2482;
+			margin:0%;
+			padding: 0%;
+			text-align: center;
+			line-height: 50px;
+
+		}
+		.search [type='search']  /* Design of inside search box*/
+
+		{ 
+			height: 35px;
+			width: 95%;
+			color: black;
+			font-size: 20px;
+		
+			font-family: Lucida Calligraphy;
+		}
+
+
+
+		.image
+		{
+
+			margin:0% 35% 0% 35%;
+			padding-top: 1%; 
+			width: 30%;
+			display: flex;
+			justify-content:space-around;
+		}
+
+		.footer img
+		{
+				height: 30px;
+		}
+
+		.menubar
+		{
+  		position: fixed;
+  		overflow: hidden;	
+  		width: 100%; 
+		}
+
+		.heading h1
+		{
+		background-color: #770719;
+		position: fixed;
+  		overflow: hidden;	
+  		width: 100%; 
+	
+		}
+
+
+		.footer p
+		{
+			color: red;
+			text-align: center;
+			
+		}
+
+		.nav ul li a
+		{
+			text-decoration: none;
+			color: #1cce08;
+			font-size: 20px;
+			margin-top: 2px;
+
+		}
+
+		.nav ul li:hover
+		{
+			text-decoration: underline;
+
+
+		}
+
+		.nav ul li
+		{
+			margin-top: 3.5px;
+			margin-left: 50%;
+			list-style: none;
+		}
+
+		.nav
+		{
+			
+			color: #1cce08;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			
+
+		}
+		.info h1
+		{
+			width: 100%;
+			padding-top: 30px;
+			margin-left:78%;
+			font-size: 20px;
+		}
+		.info h4
+		{
+			width: 100%;			
+			margin-left:65%;
+			font-size: 20px;
+		}
+		.nav h3 a
+		{
+			color: #1cce08;
+			text-decoration:none;
+		}
+	
+
+
+		
