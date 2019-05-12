@@ -1,120 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Jobs</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="job.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 </head>
 <body>
 
-	<div class="all">
-
 		<div class="heading">
-
-			<h1>News A-Z</h1>
-			
+			<img src="logo11.png" alt="">
+			<div class="searchbar">
+				<input type="text" name="search" placeholder="Search....">
+				<input type="submit" name="searchbtn" value="Search">
+			</div>
 		</div>
-
-		<div class="menubar">
-
-		<div class="logo">
-
-			<img src="img/logo11.png" style="height: 50px;width:100%;">
-
-		</div>
-
 
 		<div class="menu">
+			<ul>
+				<li><a href="index.html">Landing</a></li>
+				<li><a href="review.html"> Reviews</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+				<li><a href="jobs.html">Jobs</a></li>
+				<li><a href="tutorials.html">Tutorials</a></li>
+			</ul>
+		</div>
+<div class="job">
+    <div class="header">
+    <h2>Job Opportunities</h2>
+    </div>
+    <div class="job-details">
+    <div class="front-end-job">
+        
+        <h2> Front end developer</h2>
+<p>They are responsible for the presentation and layout of website.
+They work with tools like photoshop and language like html CSS and JS.
+Frontend refers to "client-side".
+    Main objective of frontend developer is to make user friendly design.</p>
 
-		<ul>
-			<li><a href="home.html">Landing</a></li>
-			<li><a href="review.html"> Reviews</a></li>
-			<li><a href="glossary.html">Glossary</a></li>
-			<li><a href="#">Jobs</a></li>
-			<li><a href="Tutorials.html">Tutorials</a></li>
-	
-		</ul>
+        </div>
+        <div class="Backend-developer-job">
+       <h2>Backend developer</h2> <p>They are responsible for proper functioning of website
+They work with tools like XAMPP and language like php.
+Backend refers to "server-side".
+            Main objective of backend developer is to make site fast and reliable.</p>
+
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+    
+    </div>
+
+    <form>
+    	<fieldset>
+    		<legend>Apply For Job</legend>
+    		<label>First Name</label><br>
+	    	<input type="text" name="firstname" required=""><br>
+
+	    	<label>Last Name</label><br>
+	    	<input type="text" name="lastname" required=""><br>
+
+	    	<label>Address</label><br>
+	    	<input type="text" name="address" required=""><br>
+
+	    	<label>Email Address</label><br>
+	    	<input type="email" name="Email" required=""><br>
+
+	    	<label>Job Title</label><br>
+	    	<select>
+	    		<option>Front-end Developer</option>
+	    		<option>Baack-end Developer</option>
+	    	</select><br>
+
+    		<input type="submit" name="subit" value="Submit">
+    	</fieldset>
+
+    </form>
+
+
+	<div class="footer">	
+	 	<div class="nav">
+			<ul>
+				<li><a href="#">Landing</a></li>
+				<li><a href="Review.html"> Reviews</a></li>
+				<li><a href="Glossary.html">Glossary</a></li>
+				<li><a href="Jobs.html">Jobs</a></li>
+				<li><a href="Tutorials.html">Tutorials</a></li>	
+			</ul>
 		</div>
 
-			<div class="search">
-			<input type="search" name="" placeholder="Search" id="search">
-		</div>
-		</div>
+		<div class="Footer1">
+			<div class="image">
+				<a href="https://www.facebook.com"><img src="facebook.png" alt=""> </a>
+				<a href="https://www.instagram.com"><img src="instagram.png" alt=""> </a>
+				<a href="https://www.twitter.com"><img src="twitter.png" alt=""> </a>
+				<a href="https://www.linkedIn.com"><img src="linkedIn.png" alt=""> </a>
+			</div> 
 
-		<div class="jobs">
-			<div class="job1">
-
-				<h1>FrontEnd Developer</h1>
-
-				<ol>
-					<li>They are responsible for the presentaion and layout of website</li>
-					<li>They work with tools like photoshop and language like html css and js</li>
-					<li>Frontend refers to "client-side"</li>
-					<li>Main objective of frontend developer is to make user friendly design</li>
-
-				</ol>
-
+			<div class="copy">
+				<p>Copyright &copy; News A-Z 2019 Nitesh Ghimire</p>
 			</div>
-			<div class="job2">
-				<h1>BackEnd Developer</h1>
-
-				<ol>
-					<li>They are responsible for proper functioning of website</li>
-					<li>They work with tools like xampp and languwage like php</li>
-					<li>Backend refers to "server-side"</li>
-					<li>Main objective of backend developer is to make site fast and reliable</li>
-
-				</ol>
-			</div>
 		</div>
 
-		<div class="form1">
-			<form>
-				<h2>Apply for Job</h2><br>
-
-				<input type="text" name="" placeholder="First Name"><br><br>
-				<input type="text" name="" placeholder="Last Name"><br><br>
-				<input type="email" name="" placeholder="Email address"><br><br>
-				<input type="button" name="" value="Apply for Job">
-
-
-			</form>
-
-
+		<div class="info">
+			<h1>News A to Z </h1>
+			<h4>Kathmandu,Nepal</h4>
 		</div>
 	</div>
 
 
 
-	<div class="footer">
-		<div class="image">
-
-			<a href="https://www.facebook.com"><img src="img/facebook.png"> </a>
-			<a href="https://www.instagram.com"><img src="img/instagram.png"> </a>
-			<a href="https://www.twitter.com"><img src="img/twitter.png"> </a>
-			<a href="https://www.linkedIn.com"><img src="img/linkedIn.png"> </a>
-		</div> 
-				<div class="nav">
-
-					<ul>
-						<li><a href="home.html">Landing</a></li>
-						<li><a href="review.html">Reviews</a></li>
-						<li><a href="glossary.html">Glossary</a></li>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="Tutorials.html">Tutorials</a></li>
-						
-					</ul>
-					
-						<div class="info">
-						<h1>News A to Z </h1>
-						<h4>Kathmandu,Nepal</h4>
-						
-						</div>
-
-					<h3><a href="https://wwww.nami.edu.np">Click here to Visit Nami College</a></h3>
-				</div >
-					
-		<p>Copyright &copy News A-Z 2019 Nitesh Ghimire</p>
 
 </body>
 </html>

@@ -1,0 +1,36 @@
+/*css for content div starts*/
+.content{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin:0 20px;
+}
+
+.content h5{
+	font-size: 25px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.tut1,.tut2,.tut3,.tut4{
+	margin: 20px;
+}
+
+iframe{
+	width: 100%;
+	height: 25vw;
+	border:none;
+}
+/*css for content div ends*/
+
+
+
+/*media queries to make the page responsive starts*/
+@media screen and (max-width: 800px){
+	.content{
+		grid-template-columns: auto;
+	}
+
+	iframe{
+		height:50vw;
+	}
+}
+/*media queries to make the page responsive ends*/

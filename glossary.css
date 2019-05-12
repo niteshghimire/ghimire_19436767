@@ -1,0 +1,13 @@
+/*css for glossary words starts*/
+
+.glossary{
+    width: 40%;
+    display: flex;
+    margin: 0 30%;
+    flex-direction: column;
+    justify-content: center;
+    padding:2%;
+    background-color: #E7EAED;
+    margin-bottom: 1%;
+}
+/*css for glossary words ends*/

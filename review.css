@@ -1,0 +1,37 @@
+/*css for review box starts*/
+.review{
+    display: flex;
+    flex-direction: column;
+    
+}
+.review-data{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #E7EAED;
+}
+/*css for review box ends*/
+
+
+/*media queries to make the pages responsive starts*/
+		@media screen and (max-width: 1270px){
+			.News{
+				grid-template-columns: auto auto;
+			}
+		}
+
+		@media screen and (max-width: 600px){
+            .reviews{
+                flex-direction: column;
+                width: 98%;
+            }
+            .review-data{
+                flex-direction: column;
+                width: 96%;
+            }
+            
+		}
+/*media queries to make the pages responsive ends*/
+	

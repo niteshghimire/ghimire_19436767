@@ -1,0 +1,70 @@
+/*css for job div starts*/
+.job{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    
+}
+.header{
+    text-align: center;
+}
+/*css for job div ends*/
+
+/*css for job details starts*/
+.job-details{
+    width: 50%;
+    margin: 0 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.front-end-job{
+    width: 50%;
+    background-color: #E7EAED;
+    margin-right: 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+.front-end-job h2{
+    background-color: blueviolet;
+    padding: 5%;
+    margin: 0;
+    color: white;
+}
+.Backend-developer-job{
+    width: 50%;
+    background-color: #E7EAED;
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 5px;
+   
+}
+.Backend-developer-job h2{
+     background-color: blueviolet;
+    padding: 5%;
+    margin: 0;
+     color: white;
+}
+/*css for job details ends*/
+
+
+/*css for html form starts*/
+form{
+    margin-bottom: 20px;
+}
+
+form input{
+    margin: 10px 0;
+}
+/*css for html form ends*/
+
+
+
+/*media queries to make the page responsive starts*/
+@media screen and (max-width: 800px){
+    .job-details{
+        flex-direction: column;
+    }
+}
+/*media queries to make the page responsive starts*/

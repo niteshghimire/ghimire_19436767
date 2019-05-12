@@ -1,0 +1,196 @@
+		/*css for heading and navigattion bar starts*/
+        .nav ul li a
+		{
+			text-decoration: none;
+			color: #1cce08;
+			font-size: 20px;
+			margin-top: 2px;
+
+		}
+
+		.nav ul li:hover
+		{
+			text-decoration: underline;
+
+
+		}
+
+		.nav ul li
+		{
+			margin-top: 3.5px;
+			margin-left: 1%;
+			list-style: none;
+		}
+
+		.nav
+		{
+			
+			color: #1cce08;
+			width: 40%; display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			
+
+		}.heading img{
+			width: 200px;
+			height: 80px;
+		}
+
+		.heading{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		/*css for navigation bar and header starts*/
+
+		/*css for search bar starts*/
+		.searchbar{
+			margin-top: 25px;
+		}
+
+		.searchbar input{
+			padding: 5px;
+			border-style: none;
+			border:2px solid black;
+			border-radius: 5px;
+		}
+		/*css for search bar ends*/
+
+
+		/*css for menu bar starts*/
+		.menu ul{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			background-color: #4D0202;
+			padding: 10px;
+		}
+
+		.menu{
+			position: sticky;
+			top:0;
+			right: 0;
+			left: 0;
+		}
+
+		.hamburgericon{
+			display: none;
+		}
+
+		.menu ul li{
+			list-style: none;
+			font-family: 'Dosis', sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		.menu ul li a{
+			text-decoration:none;
+			color: white;
+		}
+
+		.menu ul li a:hover{
+			color:#540480;
+		}
+		/*css for menu bar ends*/
+
+
+		/*css for footer starts*/
+		.footer
+		{
+			background-color: black;  /* source url---https://www.youtube.com/watch?v=qlCIXXhSX6Y*/
+			position:relative;
+			padding: 2%;
+		}
+
+		
+
+		.News{
+			display: grid;
+			grid-template-columns: auto auto auto auto;
+			justify-content: space-evenly;
+			margin:0 20px;
+		}
+
+		.footer img
+		{
+				height: 30px;
+				 margin: 0 0;
+            padding-left: 5%;
+		}
+		.footer{
+			display: flex;
+			flex-direction: row;
+            justify-content: space-between;
+		
+		}
+
+		.Footer1{
+			display: flex;
+			flex-direction: column;
+			margin-top: 50px;
+			text-align: center;
+		}
+
+
+		.footer p
+		{
+			color: red;
+			text-align: center;
+			
+		}
+		/*css for footer ends*/
+
+
+		/*css for body starts*/
+		body{
+			font-family: 'Dosis', sans-serif;
+		}
+		/*css for body ends*/
+
+
+		/*media queries to make the page responsive starts*/
+		@media screen and (max-width: 1270px){
+			.News{
+				grid-template-columns: auto auto;
+			}
+		}
+
+		@media screen and (max-width: 600px){
+            .footer{
+                flex-direction: column;
+            }
+            .menubar
+		{
+			flex-direction: column;
+            
+		}
+            .menu ul li
+		{
+            padding: 1%;
+			width: 100%;
+            }
+
+            .nav{
+                margin: 0;
+                justify-content:flex-start;
+            }
+
+            .News{
+				grid-template-columns: auto;
+			}
+
+			.menu ul{
+				flex-direction: column;
+			}
+
+			.menu{
+				position: static;
+			}
+            
+		}
+	/*media queries to make the page responsive starts*/
+	
+
+
+		

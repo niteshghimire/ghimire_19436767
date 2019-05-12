@@ -1,0 +1,199 @@
+/*css for container starts*/
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+/*css for news container starts*/
+
+
+/*css for main news starts*/
+.main-news {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: -5%;
+   
+}
+
+.main-news img {
+    width: 100%;
+}
+.container-main-news{
+    display: flex;
+    background-color: #E7EAED;
+    margin-top: 1%;
+    
+}
+/*css for main news ends*/
+
+
+/*css for grid news starts*/
+.grid-news{
+    margin-left: 1%;
+    width: 38%;
+    margin-top: 1%;
+    display: grid;
+    padding: 0 4% 0 9%;;
+    grid-template-columns: auto;
+}
+.main-news h1{
+    text-align: center;
+   padding-bottom: 4%;
+}
+
+
+.a img{
+    width:90%;
+
+}
+
+.a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.news a {
+    text-decoration: none;
+}
+
+.news img {
+    height: 400px;
+}
+
+.news {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*css for grid news ends*/
+
+
+/*css for news gategory box starts*/
+.News {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin: 0 20px;
+}
+
+.News h5 {
+    margin: 5px 50px 10px 10px;
+    text-align: justify;
+}
+
+.News img {
+    width: 300px;
+    height: 200px;
+}
+
+.newslist ul li {
+    list-style: none;
+
+}
+
+.newslist ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.newslist {
+    text-align: center;
+    padding: 0 20%;
+    background-color: #E7EAED;
+}
+/*css for news category box starts*/
+
+
+/*css for useful liks starts*/
+.links h2{
+    padding-top:1%; 
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li:hover{
+}
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.links {
+    text-align: center;
+    color: white;
+    background-color:rebeccapurple;
+}
+
+.h2 {
+
+    line-height: 50px;
+    height: 50px;
+    background-color: #770719;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+/*css for useful liks ends*/
+
+
+/*media queries to make pages responsive starts*/
+@media screen and (max-width: 1270px){
+			.News{
+				grid-template-columns: auto auto;
+			}
+		}
+
+		@media screen and (max-width: 600px){
+			.News{
+				grid-template-columns: auto;
+                
+			}
+            .main-news {
+                flex-direction: column;
+                width: 96%;
+                margin-top: 0;
+            }
+            .container-main-news{
+                flex-direction: column;
+            
+            }
+            .grid-news{
+                grid-template-columns: auto;
+                width: 96%;
+                margin: 0;
+                padding: 1%;
+                
+            }
+            .links ul {
+                flex-direction: column;
+                padding: 0;
+                padding-bottom: 1%;
+            }
+            .links ul li{
+                color: white;
+                padding-bottom: 1%;
+            }
+            .News{
+                width: 98%;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            .News img{
+                width:90%;
+                height: 300px;
+            }
+		}
+    /*media queries to make pages responsive ends*/
+	
